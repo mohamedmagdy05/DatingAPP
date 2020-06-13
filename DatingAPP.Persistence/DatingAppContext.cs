@@ -12,6 +12,7 @@ namespace DatingAPP.Persistence
         {
         }
         public DbSet<Value> Values { get; set; }
-        
+        public DbSet<Course> Courses { get; set; }
+
     }
 }

@@ -12,9 +12,11 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DatingApp.IOC\DatingApp.IOC.csproj" />
     <ProjectReference Include="..\DatingAPP.Persistence\DatingAPP.Persistence.csproj" />
   </ItemGroup>
 
